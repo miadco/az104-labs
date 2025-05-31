@@ -1,41 +1,63 @@
-# AZ-104 Lab Projects – Personal Practice Repository
+## 🧱 AZ-104: Azure Administrator – Lab Portfolio
 
-Easily my favorite Azure labs! The learning objectives were clearly defined, with a solid introduction and a real-world scenario that made the content engaging and relevant. While I still don't fully grasp Microsoft’s learning diagrams, they were included for those who do. The lab covered practical job skills, provided clear step-by-step instructions, integrated Copilot support, and offered links for continued self-paced learning. It even ended with key takeaways to reinforce the material. Excellent work — shoutout to the creators of this outstanding content.
+This repository showcases a collection of hands-on labs aligned with the Microsoft AZ-104: Azure Administrator Associate certification. Each lab simulates real-world administrative tasks to build, manage, and secure core Azure infrastructure.
 
----
+Focus areas include:
 
-## 🔍 Labs Completed
+🖥️ Virtual Machines & Disk Configuration
+🔐 Identity Management & Role-Based Access Control (RBAC)
+🌐 Networking: VNets, Subnets, NSGs, VPNs
+📦 Storage Accounts & Blob Services
+📈 Monitoring, Alerts, and Log Analytics
+🔁 Infrastructure Automation with ARM Templates & Azure CLI
+🛠️ Backup, Recovery, and Resource Governance
 
-| Lab | Title                                                                                                              | Focus Area                       |
-| --- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------- |
-| 01  | [Manage Azure Active Directory Identities](lab01-manage-azure-identities)                                          | Identity & Access Management     |
-| 02a | [Manage Subscriptions and RBAC](lab02a-manage-subscriptions-and-rbac)                                              | Role-Based Access Control (RBAC) |
-| 02b | [Configure and Evaluate Azure Policy](lab02b-configure-azure-policy)                                               | Governance & Compliance          |
-| 07  | [Configure Monitoring for Azure Resources](lab07-configure-monitoring)                                             | Observability & Monitoring       |
-| 11  | [Secure Azure Resources with RBAC, Policies, and Locks](lab11-secure-azure-resources-with-rbac-policies-and-locks) | Access Management & Protection   |
+### 📚 Project Context and Source
 
----
-
-## 📚 Skills Demonstrated
-
-- Microsoft Entra (Azure AD) user and group management
-- Role assignments and scope definition using RBAC
-- Policy creation and compliance evaluation
-- Monitoring setup with Log Analytics and diagnostic settings
-- Resource protection using locks and policy enforcement
+These labs were adapted from the official Microsoft Learning GitHub repository, which provided the foundational templates and learning paths. Special thanks to the maintainers of [AZ-104 Microsoft Learning Labs](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/tree/master) for making this content publicly accessible and well-structured.
 
 ---
 
-## 🚧 Purpose
+### ✅ Labs Completed
 
-- Build a structured, documented portfolio of hands-on Azure work
+These labs were among my favorite Azure learning experiences due to their clear objectives, real-world scenarios, and well-structured instructions. They also included Copilot integration, self-paced learning links, and reflective key takeaways. Kudos to the creators.
+
+| Lab # | Title                                                 | Focus Area                       |
+| ----- | ----------------------------------------------------- | -------------------------------- |
+| 01    | Manage Azure Active Directory Identities              | Identity & Access Management     |
+| 02a   | Manage Subscriptions and RBAC                         | Role-Based Access Control (RBAC) |
+| 02b   | Configure and Evaluate Azure Policy                   | Governance & Compliance          |
+| 07    | Configure Monitoring for Azure Resources              | Observability & Monitoring       |
+| 11    | Secure Azure Resources with RBAC, Policies, and Locks | Access Management & Protection   |
 
 ---
 
-## 📁 Structure
+### 📁 Repository Structure
 
-Each lab folder contains:
+Each lab directory includes:
 
-- `README.md`: Summary, tasks, and key learnings
-- `screenshots/`: Evidence of completion and task execution
-- `notes.md`: (Optional) Key insights and troubleshooting
+* `README.md`: Detailed summary of the lab
+* `screenshots/`: Visual proof of configuration and outcomes
+
+---
+
+### 📚 Skills Demonstrated
+
+* Microsoft Entra (Azure AD) user and group management
+* Role assignments and scope definition using RBAC
+* Policy creation and compliance evaluation
+* Monitoring setup with Log Analytics and diagnostic settings
+* Resource protection using locks and policy enforcement
+
+### 🧠 Reflections
+
+I enjoyed doing the SC-300 and AZ-500 labs, but AZ-104 has been my favorite. The labs were clear, the scenarios felt real, and the experience made Azure click for me in a deeper way. Azure has an expansive ecosystem but the more you use it the more you start to understand the strategy behind it and how its services work together. Will definitely revisit, finish, and upload the rest of labs to this repository.
+
+---
+
+### 📘 Additional Learning
+
+For deeper study and self-paced learning beyond the labs, follow the official Microsoft Learn path for this certification:
+
+🔗 [AZ-104: Azure Administrator Learning Path](https://learn.microsoft.com/en-us/certifications/azure-administrator/)
+
